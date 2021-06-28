@@ -348,51 +348,51 @@ for col in kc_clean[cont_vars]:
 ```
 
 
-![png](output_26_0.png)
+![png](images/output_26_0.png)
 
 
 
-![png](output_26_1.png)
+![png](images/output_26_1.png)
 
 
 
-![png](output_26_2.png)
+![png](images/output_26_2.png)
 
 
 
-![png](output_26_3.png)
+![png](images/output_26_3.png)
 
 
 
-![png](output_26_4.png)
+![png](images/output_26_4.png)
 
 
 
-![png](output_26_5.png)
+![png](images/output_26_5.png)
 
 
 
-![png](output_26_6.png)
+![png](images/output_26_6.png)
 
 
 
-![png](output_26_7.png)
+![png](images/output_26_7.png)
 
 
 
-![png](output_26_8.png)
+![png](images/output_26_8.png)
 
 
 
-![png](output_26_9.png)
+![png](images/output_26_9.png)
 
 
 
-![png](output_26_10.png)
+![png](images/output_26_10.png)
 
 
 
-![png](output_26_11.png)
+![png](images/output_26_11.png)
 
 
 
@@ -548,7 +548,7 @@ with plt.style.context('seaborn'):
 ```
 
 
-![png](output_34_0.png)
+![png](images/output_34_0.png)
 
 
 Selecting the columns we need to be normalized:
@@ -574,7 +574,7 @@ with plt.style.context('seaborn'):
 ```
 
 
-![png](output_39_0.png)
+![png](images/output_39_0.png)
 
 
 Next, we grab the selected columns that have been normalized (and ones that were already normal) and put them into a new dataframe to use. 
@@ -2791,7 +2791,7 @@ heat_corr(zipcode_model, cont_vars)
 ```
 
 
-![png](output_65_0.png)
+![png](images/output_65_0.png)
 
 
 
@@ -2823,7 +2823,7 @@ heat_corr(zipcode_model, cont_vars)
 ```
 
 
-![png](output_70_0.png)
+![png](images/output_70_0.png)
 
 
 
@@ -3571,7 +3571,7 @@ qq_plot(model)
 ```
 
 
-![png](output_88_0.png)
+![png](images/output_88_0.png)
 
 
 
@@ -3580,7 +3580,7 @@ resid_scatter(model, 'price_log', zipcode_model)
 ```
 
 
-![png](output_89_0.png)
+![png](images/output_89_0.png)
 
 
 
@@ -3589,7 +3589,7 @@ dist_resid(model)
 ```
 
 
-![png](output_90_0.png)
+![png](images/output_90_0.png)
 
 
 Next, we need to make sure there is no multicollinearity within any of our columns, so we will create another function that uses variance inflation factor to find out if there are such columns in our model.
@@ -4096,7 +4096,7 @@ qq_plot(sub_model)
 ```
 
 
-![png](output_106_0.png)
+![png](images/output_106_0.png)
 
 
 
@@ -4105,7 +4105,7 @@ resid_scatter(sub_model, 'price_log', subregion_model)
 ```
 
 
-![png](output_107_0.png)
+![png](images/output_107_0.png)
 
 
 
@@ -4114,7 +4114,7 @@ dist_resid(sub_model)
 ```
 
 
-![png](output_108_0.png)
+![png](images/output_108_0.png)
 
 
 
